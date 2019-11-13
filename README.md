@@ -32,6 +32,6 @@ git clone <this repo>
 cd <dir>
 ```
 ### Quantum Approximate Optimization Algorithm
-Proposed by Farhi et al. in 2014, a Quantum Approximate Optimization Algorithm (QAOA) is a hybrid quantum-classical method of approximately solving certain optimization problems. 
+Proposed by [Farhi et al. in 2014](https://arxiv.org/pdf/1411.4028.pdf), a Quantum Approximate Optimization Algorithm (QAOA) is a hybrid quantum-classical method of approximately solving certain optimization problems. 
 
 
