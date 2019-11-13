@@ -30,4 +30,8 @@ In order to use Qaoala, you will need to [install Qallse](https://github.com/der
 ```
 git clone <this repo>
 cd <dir>
+\begin{equation}
+pp = 1
+\end{equation}
 ```
+
