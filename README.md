@@ -27,6 +27,7 @@ This codebase is part of the [HEP.QPR](https://hep-qpr.lbl.gov/) project and is 
 ### Dependencies 
 In order to use Qaoala, you will need to [install Qallse](https://github.com/derlin/hepqpr-qallse#setup-and-usage), [install EntropicaQAOA](https://docs.entropicalabs.io/qaoa/#installation), [download the Rigetti Forrest SDK](https://www.rigetti.com/forest) and [install PyQuil](http://docs.rigetti.com/en/stable/start.html#start). Qallse recommneds creating a virtual environment. Though this may not be compatible with Rigetti and EntropicaQAOA, we bypass this by exporting the QUBO file generated from Qallse.  
 
-`git clone <this repo>`
-
-
+```
+git clone <this repo>
+cd <dir>
+```
