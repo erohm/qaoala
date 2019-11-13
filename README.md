@@ -25,13 +25,13 @@ a8"      "8a.  ,adPPYYba,                                          |            
 This codebase is part of the [HEP.QPR](https://hep-qpr.lbl.gov/) project and is built on [Qallse](https://github.com/derlin/hepqpr-qallse). Qaoala encodes charged particle track pattern recognition problems from the [TrackML](https://www.kaggle.com/c/trackml-particle-identification/data) dataset into a form which can be solved using a Quantum Approximate Optimization Algorithm (QAOA)on a gate-based machine. 
 
 ### Dependencies 
-In order to use Qaoala, you will need to [install Qallse](https://github.com/derlin/hepqpr-qallse#setup-and-usage), [install EntropicaQAOA](https://docs.entropicalabs.io/qaoa/#installation), [download the Rigetti Forrest SDK](https://www.rigetti.com/forest) and [install PyQuil](http://docs.rigetti.com/en/stable/start.html#start). Qallse recommneds creating a virtual environment. Though this may not be compatible with Rigetti and EntropicaQAOA, we bypass this by exporting the QUBO file generated from Qallse. This approach is particularly advantageous in the NISQ era and beyond, since it relies on classical optimizers to help steer the quantum computation.   
+In order to use Qaoala, you will need to [install Qallse](https://github.com/derlin/hepqpr-qallse#setup-and-usage), [install EntropicaQAOA](https://docs.entropicalabs.io/qaoa/#installation), [download the Rigetti Forrest SDK](https://www.rigetti.com/forest) and [install PyQuil](http://docs.rigetti.com/en/stable/start.html#start). Qallse recommneds creating a virtual environment. Though this may not be compatible with Rigetti and EntropicaQAOA, we bypass this by exporting the QUBO file generated from Qallse.   
 
 ```
 git clone <this repo>
 cd <dir>
 ```
 ### Quantum Approximate Optimization Algorithm
-Proposed by [Farhi et al. in 2014](https://arxiv.org/pdf/1411.4028.pdf), a Quantum Approximate Optimization Algorithm (QAOA) is a hybrid quantum-classical method of approximately solving certain optimization problems. 
+Proposed by [Farhi et al. in 2014](https://arxiv.org/pdf/1411.4028.pdf), a Quantum Approximate Optimization Algorithm (QAOA) is a hybrid quantum-classical method of approximately solving certain optimization problems. This approach is particularly advantageous in the NISQ era and beyond, since it relies on classical optimizers to help steer the quantum computation.  
 
 
