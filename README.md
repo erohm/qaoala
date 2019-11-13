@@ -31,4 +31,7 @@ In order to use Qaoala, you will need to [install Qallse](https://github.com/der
 git clone <this repo>
 cd <dir>
 ```
+### Quantum Approximate Optimization Algorithm
+Proposed by Farhi et al. in 2014, a Quantum Approximate Optimization Algorithm (QAOA) is a hybrid quantum-classical method of approximately solving certain optimization problems. 
+
 
