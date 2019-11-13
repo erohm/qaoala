@@ -1,6 +1,6 @@
 # Qaoala
 ```                              
-**,adPPPYba,    ,adPPYYba,**                                                               
+ ,adPPPYba,    ,adPPYYba,                                                              
 a8"      "8a.  ""     `Y8                                             
 88         88  ,adPPPPP88                           
 88         88  88,    ,88                            
